@@ -76,4 +76,3 @@ back = st.button('Kembali ke Halaman Utama')
 
 if back:
     switch_page("jaljayo")
-    pyautogui.hotkey("ctrl","F5")
