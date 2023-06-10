@@ -67,5 +67,6 @@ with st.form("NDI"):
 if kirim:
     if q1 == '0 malam per minggu':
         st.subheader("Anda Tidak Memiliki Gangguan Mimpi Buruk.")
+        st.write('Jika berkenan, mohon isi form Usability Testing berikut ini: [Google Form](https://forms.gle/1PNAYjbGrnpNCcrQ6)')
     else:
          switch_page("Jaljayo2")
