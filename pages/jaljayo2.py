@@ -92,7 +92,7 @@ if kirim:
             st.error('Tingkat keakutan: Konstan')
         
         st.write('Untuk langkah selanjutnya, silakan lakukan wawancara klinis dengan ahli yang terkait.')
-        st.write('Jika berkenan, mohon isi form Usability Testing berikut ini: [Google Form](https://forms.gle/1PNAYjbGrnpNCcrQ6)')
+        st.write('Dan mohon submit hasil diagnosis ke form Usability Testing berikut ini: [Google Form](https://forms.gle/1PNAYjbGrnpNCcrQ6)')
 
 st.markdown('##')
 

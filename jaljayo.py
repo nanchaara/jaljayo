@@ -55,8 +55,8 @@ with st.form("NDI"):
         </style>
         """, unsafe_allow_html=True)
     
-    
-    q1 = st.radio("Berapa malam dalam seminggu Anda mengalami mimpi buruk (yang mengganggu, berkepanjangan, membekas dalam ingatan)?",
+    st.write('Pikirkan dalam sebulan terakhir…')
+    q1 = st.radio("Berapa malam dalam seminggu, Anda mengalami mimpi buruk (yang mengganggu, berkepanjangan, membekas dalam ingatan)?",
                 ('0 malam per minggu', '<1 malam per minggu', 
                 '1-3 malam per minggu', '4-6 malam per minggu',
                 '7 malam per minggu'), key='pil1')
@@ -67,6 +67,6 @@ with st.form("NDI"):
 if kirim:
     if q1 == '0 malam per minggu':
         st.subheader("Anda Tidak Memiliki Gangguan Mimpi Buruk.")
-        st.write('Jika berkenan, mohon isi form Usability Testing berikut ini: [Google Form](https://forms.gle/1PNAYjbGrnpNCcrQ6)')
+        st.write('Selanjutnya, mohon submit hasil diagnosis ke form Usability Testing berikut ini: [Google Form](https://forms.gle/1PNAYjbGrnpNCcrQ6)')
     else:
          switch_page("Jaljayo2")
