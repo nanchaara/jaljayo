@@ -58,12 +58,12 @@ with st.form("NDI2"):
     
     st.markdown("##")
 
-    kirim = st.form_submit_button(label="Kirim")
+    hasil = st.form_submit_button(label="Tampilkan Hasil")
 
 
 
-# edit ini
-if kirim:
+
+if hasil:
     if ((q2 == 'Tidak pernah' or q2 == 'Jarang') or
         (q3 == 'Tidak menggangu sama sekali' or q3 == 'Sedikit mengganggu') or
         (q4 == 'Tidak menggangu sama sekali') or (q4 == 'Sedikit mengganggu')):
