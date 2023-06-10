@@ -18,7 +18,7 @@ st.markdown(
 
 st.title('Jaljayo')
 st.subheader('Diagnosis Awal Gangguan Mimpi Buruk')
-st.text('Dengan Nightmare Disorder Index (NDI)')
+st.write('Dengan Nightmare Disorder Index (NDI)')
 
 with st.expander("Deskripsi"):
     st.write("""
@@ -45,10 +45,21 @@ def up_pil():
 
 
 with st.form("NDI"):
+
+    st.markdown(
+        """<style>
+    div[class*="stRadio"] > label > div[data-testid="stMarkdownContainer"] > p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+        </style>
+        """, unsafe_allow_html=True)
+    
+    
     q1 = st.radio("Berapa malam dalam seminggu Anda mengalami mimpi buruk (yang mengganggu, berkepanjangan, membekas dalam ingatan)?",
                 ('0 malam per minggu', '<1 malam per minggu', 
-                    '1-3 malam per minggu', '4-6 malam per minggu',
-                    '7 malam per minggu'), key='pil1')
+                '1-3 malam per minggu', '4-6 malam per minggu',
+                '7 malam per minggu'), key='pil1')
     
     kirim = st.form_submit_button(label="Kirim", on_click=up_pil)
 
