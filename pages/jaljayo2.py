@@ -68,7 +68,8 @@ if kirim:
         (q3 == 'Tidak menggangu sama sekali' or q3 == 'Sedikit mengganggu') or
         (q4 == 'Tidak menggangu sama sekali') or (q4 == 'Sedikit mengganggu')):
         st.subheader("Anda memiliki Gejala Gangguan Mimpi Buruk Sebagian/Subthreshold.")
-
+        
+        st.write('Untuk mencegah terjadinya mimpi buruk, silakan kunjungi link dari [Kementerian Kesehatan](https://yankes.kemkes.go.id/view_artikel/143/mimpi-buruk#:~:text=Ada%20beberapa%20cara%20yang%20bisa)')
         st.write('Mohon submit hasil diagnosis ke form Usability Testing berikut ini: [Google Form](https://forms.gle/1PNAYjbGrnpNCcrQ6)')
 
     else:
