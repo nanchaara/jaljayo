@@ -19,7 +19,7 @@ st.title('Jaljayo')
 st.subheader('Diagnosis Awal Gangguan Mimpi Buruk')
 st.write('Dengan Nightmare Disorder Index (NDI)')
 
-st.markdown('##')
+st.write("---")
         
 st.write('Halaman 2')
 
@@ -70,7 +70,7 @@ if hasil:
         st.subheader("Anda memiliki Gejala Gangguan Mimpi Buruk Sebagian/Subthreshold.")
         
         st.write('Untuk mencegah terjadinya mimpi buruk, silakan kunjungi link dari [Kementerian Kesehatan](https://yankes.kemkes.go.id/view_artikel/143/mimpi-buruk#:~:text=Ada%20beberapa%20cara%20yang%20bisa)')
-        st.write('Mohon submit hasil diagnosis ke form Usability Testing berikut ini: [Google Form](https://forms.gle/1PNAYjbGrnpNCcrQ6)')
+        st.write('##### Mohon submit hasil diagnosis ke form Usability Testing berikut ini: [Google Form](https://forms.gle/1PNAYjbGrnpNCcrQ6)')
 
     else:
         st.subheader('Anda memiliki Kemungkinan Gangguan Mimpi Buruk')
@@ -93,7 +93,7 @@ if hasil:
             st.error('Tingkat keakutan: Konstan')
         
         st.write('Untuk langkah selanjutnya, silakan lakukan wawancara klinis dengan ahli yang terkait.')
-        st.write('Dan mohon submit hasil diagnosis ke form Usability Testing berikut ini: [Google Form](https://forms.gle/1PNAYjbGrnpNCcrQ6)')
+        st.write('##### Dan mohon submit hasil diagnosis ke form Usability Testing berikut ini: [Google Form](https://forms.gle/1PNAYjbGrnpNCcrQ6)')
 
 st.markdown('##')
 
