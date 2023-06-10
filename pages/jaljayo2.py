@@ -69,7 +69,7 @@ if kirim:
         (q4 == 'Tidak menggangu sama sekali') or (q4 == 'Sedikit mengganggu')):
         st.subheader("Anda memiliki Gejala Gangguan Mimpi Buruk Sebagian/Subthreshold.")
 
-        st.write('Jika berkenan, isi form Usability Testing berikut ini: [link](https://forms.gle/1PNAYjbGrnpNCcrQ6)')
+        st.write('Mohon submit hasil diagnosis ke form Usability Testing berikut ini: [Google Form](https://forms.gle/1PNAYjbGrnpNCcrQ6)')
 
     else:
         st.subheader('Anda memiliki Kemungkinan Gangguan Mimpi Buruk')
